@@ -1,11 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Poppins:wght@400;500&family=Revalia&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style/main.css">
     <title>Britlex</title>
 </head>
+
 <body>
+
+     <!-- Скрытая менюшка -->
+
+    <div id="mySidenav" class="sidenav">
+        <div class="sidenav_item"><a href="javascript:void(0)" class="closebtn" id="closebtn">&times;</a></div>
+        <div class="sidenav_item"><img src="img/britlex-logo.png"></div>
+        <div class="sidenav_item line"></a></div>
+        <div class="sidenav_item"><a href="#!">Home</a></div>
+        <div class="sidenav_item"><a href="#!">Skills</a></div>
+        <div class="sidenav_item"><a href="#!">About Us</a></div>
+        <div class="sidenav_item"><a href="#!">Pricing</a></div>
+        <div class="sidenav_item"><a href="#!">Contacts</a></div>
+        <div class="sidenav_item"><button>Let’s Talk</button></div>
+    </div>
     
+    <!-- Навигация -->
+
+    <nav class="nav">
+        <div class="container">
+            <div class="nav__flex">
+                <img src="img/britlex-logo.png" alt="" class="nav_logo">
+                <div class="nav__menu">
+                    <div class="nav__item"><a href="">Home</a></div>
+                    <div class="nav__item"><a href="">Skills</a></div>
+                    <div class="nav__item"><a href="">About Us</a></div>
+                    <div class="nav__item"><a href="">Pricing</a></div>
+                    <div class="nav__item"><a href="">Contacts</a></div>
+                </div>
+                <div class="nav__button">
+                    <button class="nav__lets">Let’s Talk</button>
+                </div>
+                <div class="nav__burger" id="nav__burger">
+                    <a href="javascript:void(0)"><img src="img/nav-button.png"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+   
+    <!-- Обучение -->
+
+    <section class="learn">
+        <div class="container">
+            <div class="learn__flex">
+                <div class="learn__left">
+                    <div class="learn__flex2">
+                        <h1>Learn<br> Any Foreign Language</h1>
+                        <img src="img/learn-bulb.svg" alt="bulb">
+                    </div>
+                    <p class="learn__p">
+                        With our teachers who write a program for
+                        each student, you will be able to make your
+                        first sketch after the first lesson.
+                    </p>
+                    <button>Get started</button>
+                </div>
+                <div class="learn__right">
+                    <img src="img/learn-img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Скиллы -->
+
+    <section class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills__grid">
+
+                <div class="skills__grid-item speaking">
+                    <div class="skills__grid-image">
+                        <img src="img/speaking-img.png" alt="speaking">
+                    </div>
+                    <div class="skills__grid-content">
+                        <h3>Speaking</h3>
+                        <p>Improve your English skills and confidence. Live classes and interactive lessons online.
+                            20% extra free for a limited time only. Learn English online and improve your
+                            skills through our high-quality courses and resources – all designed for adult language
+                            learners</p>
+                        <button>Learn more</button>
+                    </div>
+                </div>
+
+                <div class="skills__grid-item writing">
+                    <div class="skills__grid-image">
+                        <img src="img/writing-img.png" alt="writing">
+                    </div>
+                    <div class="skills__grid-content">
+                        <h3>Writing</h3>
+                        <p>One of the most important and extensive
+                            areas of natural science, the science that
+                            studies substances, also their composition</p>
+                        <button>Learn more</button>
+                    </div>
+                </div>
+
+                <div class="skills__grid-item reading">
+                    <div class="skills__grid-image">
+                        <img src="img/reading-img.png" alt="reading">
+                    </div>
+                    <div class="skills__grid-content">
+                        <h3>Reading</h3>
+                        <p>perception and response actions of the user
+                            resulting from the use and/or upcoming use
+                            of the product, system or service</p>
+                        <button>Learn more</button>
+                    </div>
+                </div>
+
+                <div class="skills__grid-item listening">
+                    <div class="skills__grid-image">
+                        <img src="img/listening-img.png" alt="listening">
+                    </div>
+                    <div class="skills__grid-content">
+                        <h3>Listening</h3>
+                        <p>Here you can find activities to practise
+                            your listening skills. Listening will help you
+                            to improve your understanding</p>
+                        <button>Learn more</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- О нас -->
+
+    <section class="about">
+        <div class="container">
+            <div class="about__flex">
+                <div class="about__left">
+                    <h2 class="about_h2">About Us</h2>
+                    <p class="about_p">The model offers a framework for discussing problems related to the user's
+                        experience, as well as possible ways and means of solving them. Application development begins
+                        at the top level (strategy), where the future software product is described quite abstractly
+                        from the point of view of the expectations of both users and the customer.
+                    </p>
+                    <div class="about__count">
+                        <div class="count__item">
+                            <h2>800</h2>
+                            <p>Pupils</p>
+                        </div>
+                        <div class="count__item">
+                            <h2>18</h2>
+                            <p>Teachers</p>
+                        </div>
+                        <div class="count__item">
+                            <h2>6</h2>
+                            <p>Foreign languages</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__right">
+                    <img src="img/about-img.png" alt="about">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Прайс -->
+
+    <section class="pricing">
+        <div class="container">
+            <h2 class="pricing__h2">Pricing</h2>
+            <div class="pricing__flex">
+
+                <div class="pricing__item">
+                    <div class="pricing__img"><img src="img/pricing-study.png" alt="study"></div>
+                    <h3 class="pricing_h3">Self-study online course</h3>
+                    <p class="pricing_p">Start learning English online in live classes
+                        with qualified EC teachers and students
+                        from all over the world.</p>
+                    <button class="pricing_button">
+                        <div class="button__flex">
+                            <p class="button-1">£5.99</p>
+                            <p class="button-2">per month</p>
+                        </div>
+
+                    </button>
+                </div>
+
+                <div class="pricing__item">
+                    <div class="pricing__img"><img src="img/pricing-online.png" alt="online"></div>
+                    <h3 class="pricing_h3">Live online classes</h3>
+                    <p class="pricing_p">Interactive group classes with expert
+                        teachers. Free 7-day trial</p>
+                    <button class="pricing_button">
+                        <div class="button__flex">
+                            <p class="button-1">£12.99</p>
+                            <p class="button-2">per month</p>
+                        </div>
+
+                    </button>
+                </div>
+
+                <div class="pricing__item">
+                    <div class="pricing__img"><img src="img/pricing-tution.png" alt="tution"></div>
+                    <h3 class="pricing_h3">Personal Tuition</h3>
+                    <p class="pricing_p">Online one-to-one English tutoring – enjoy
+                        our first session for only $1</p>
+                    <button class="pricing_button">
+                        <div class="button__flex">
+                            <p class="button-1"> £20.99</p>
+                            <p class="button-2">per month</p>
+                        </div>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+
+    <section class="contact">
+        <div class="container">
+            <div class="contact__flex">
+                <div class="contact__left">
+                    <img src="img/contact-img.png" alt="contact">
+                </div>
+                <div class="contact__right">
+                    <h2 class="contact-h2">Contact Us</h2>
+                    <p class="contact-p">Discover your current English level by taking our free online English test.Sign
+                        up to our newsletter for learning tips and free resources</p>
+                    <div class="contact__mail-flex">
+                        <input type="email" value="Enter Your E-mail">
+                        <input type="submit" value="Subscribe">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="line"></div>
+            <footer class="footer__flex">
+                <div class="footer__logo"><img src="img/britlex-logo.png" alt="logo"></div>
+                <div class="footer__menu">
+                    <div class="footer__item"><a href="">Terms and Conditions</a></div>
+                    <div class="footer__item"><a href="">Privacy Policy</a></div>
+                    <div class="footer__item"><a href="">Cookie Policy</a></div>
+                </div>
+            </footer>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/main.js"></script>
+
 </body>
+
 </html>
